@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Combustivel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Calculadora de Combustível</h2>
+        <label>Preço da Gasolina (R$):</label>
+        <input type="number" id="gasolina" step="0.01" placeholder="Ex: 6.19">
+        
+        <label>Preço do Etanol (R$):</label>
+        <input type="number" id="etanol" step="0.01" placeholder="Ex: 4.20">
+        
+        <label>Consumo médio no Etanol (km/L):</label>
+        <input type="number" id="consumoEtanol" step="0.1" placeholder="Ex: 9">
+        
+        <label>Consumo médio na Gasolina (km/L):</label>
+        <input type="number" id="consumoGasolina" step="0.1" placeholder="Ex: 13">
+        
+        <button id="calcBtn">Calcular</button>
+        <h3 id="resultado"></h3>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
