@@ -26,4 +26,10 @@ function calcular() {
     document.getElementById('resultado').innerText = mensagem;
 }
 
-document.getElementById('calcBtn').addEventListener('click', () => calcular())
+document.getElementById('calcBtn').addEventListener('click', () => {
+    calcular()
+    document.getElementById('gasolina').value = ''
+    document.getElementById('etanol').value = ''
+    document.getElementById('consumoEtanol').value = ''
+    document.getElementById('consumoGasolina').value = ''
+})
